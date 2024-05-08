@@ -1,3 +1,5 @@
 const fs = require('fs')
 
-fs.writeFileSync('output.txt', 'Hello world')
+const message = 'Hello world'
+console.log(message)
+fs.writeFileSync('output.txt', message)
